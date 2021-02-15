@@ -1,0 +1,61 @@
+2020-03-11 17:13:24,278 INFO org.springframework.boot.StartupInfoLogger [main] Starting Test7maretApplication on user-HP-EliteBook-840-G3 with PID 527 (/home/user/Downloads/test7maret/target/classes started by user in /home/user/Downloads/test7maret)
+2020-03-11 17:13:24,282 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-11 17:13:24,282 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-03-11 17:13:26,072 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-11 17:13:26,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79ms. Found 2 JPA repository interfaces.
+2020-03-11 17:13:26,753 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2020-03-11 17:13:26,760 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2020-03-11 17:13:26,761 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-11 17:13:26,761 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-11 17:13:26,856 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-11 17:13:26,856 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2521 ms
+2020-03-11 17:13:27,006 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-11 17:13:27,062 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-11 17:13:27,151 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-11 17:13:27,226 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-11 17:13:27,674 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-11 17:13:27,690 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-11 17:13:28,579 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-11 17:13:28,595 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-11 17:13:29,257 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-11 17:13:29,391 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-11 17:13:29,517 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 17:13:29,677 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-03-11 17:13:29,697 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-03-11 17:13:29,721 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-03-11 17:13:29,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2020-03-11 17:13:29,955 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path '/E-Wallet'
+2020-03-11 17:13:29,958 INFO org.springframework.boot.StartupInfoLogger [main] Started Test7maretApplication in 6.165 seconds (JVM running for 6.962)
+2020-03-11 17:14:37,199 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8092-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-11 17:14:37,200 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-11 17:14:37,212 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-1] Completed initialization in 12 ms
+2020-03-11 17:25:11,930 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-9] id 123123 is exist
+2020-03-11 17:25:11,931 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-9] succes regex
+2020-03-11 17:25:11,982 WARN com.enigma.test7maret.service.AccountService [http-nio-8092-exec-9] account not active
+2020-03-11 17:25:24,821 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-1] id 123124 is exist
+2020-03-11 17:25:24,822 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-1] succes regex
+2020-03-11 17:25:24,831 WARN com.enigma.test7maret.service.AccountService [http-nio-8092-exec-1] account not active
+2020-03-11 17:26:38,201 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-8] id 123123 is exist
+2020-03-11 17:26:38,203 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-8] succes regex
+2020-03-11 17:26:38,221 WARN com.enigma.test7maret.service.AccountService [http-nio-8092-exec-8] account not active
+2020-03-11 17:26:42,942 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-10] id 123123 is exist
+2020-03-11 17:26:42,944 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-10] succes regex
+2020-03-11 17:26:42,957 WARN com.enigma.test7maret.service.AccountService [http-nio-8092-exec-10] account not active
+2020-03-11 17:27:27,318 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-5] id 123123 is exist
+2020-03-11 17:27:27,320 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] succes regex
+2020-03-11 17:27:27,338 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] success account is active
+2020-03-11 17:29:05,049 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-6] id 123123 is exist
+2020-03-11 17:29:05,051 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-6] point 1000.0
+2020-03-11 17:29:05,052 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-6] succes regex
+2020-03-11 17:29:05,068 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-6] success account is active
+2020-03-11 17:30:18,535 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-7] id 123123 is exist
+2020-03-11 17:30:18,537 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-7] Accoount 123123 sufficient money
+2020-03-11 17:30:18,538 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-7] succes regex
+2020-03-11 17:30:18,553 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-7] success account is active
+2020-03-11 17:35:22,975 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-5] id 123123 is exist
+2020-03-11 17:35:22,976 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-5] id 123129 is exist
+2020-03-11 17:35:22,978 INFO com.enigma.test7maret.service.TransactionService [http-nio-8092-exec-5] Accoount 123123 sufficient money
+2020-03-11 17:35:22,979 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] succes regex
+2020-03-11 17:35:22,991 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] success account is active
+2020-03-11 17:35:23,020 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] succes regex
+2020-03-11 17:35:23,025 INFO com.enigma.test7maret.service.AccountService [http-nio-8092-exec-5] success account is active
